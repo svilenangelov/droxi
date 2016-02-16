@@ -1,0 +1,28 @@
+.event-overview{
+    margin: rem-calc(70px 0 0 0);
+    color: #d3d3d3;
+    @include breakpoint(small down) {
+        text-align: center;
+    }  
+    &__title{
+        font-size: rem-calc(26px);   
+        margin-bottom: rem-calc(30px);
+        line-height: rem-calc(20px);
+
+    }
+    &__sub-title{
+        font-size: rem-calc(52px);
+        font-weight: 700;
+        margin-bottom: rem-calc(46px);
+        color: #cf5300;
+        line-height: rem-calc(39px);
+
+    }
+    &__date{
+        font-size: rem-calc(40px);
+        line-height: rem-calc(30px);
+        margin-bottom: rem-calc(14px);
+
+    }
+}
+

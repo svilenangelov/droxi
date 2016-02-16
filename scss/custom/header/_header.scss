@@ -1,0 +1,38 @@
+.header{
+    background: url(../assets/banner.jpg) no-repeat center center;
+    background-size: cover;   
+    background-attachment: fixed;
+    padding: 20px 0 0 0;
+    &__logo {
+        color: #fff;
+        &__title {
+            @include breakpoint(small down) {
+                text-align: center;
+                font-size: 5rem;
+                line-height: 3rem;
+            }
+        }
+        &__sub-title{
+            font-size: 1rem;
+            display: block;
+            @include breakpoint(small down) {
+                text-align: center;               
+            }
+        }
+    }
+    &__user{
+        padding: 10px 0 10px 22px;
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: #fff;
+        &--login{
+            background: url(../assets/login.png) 0px 8px no-repeat;
+        }
+        &--sign-up{
+            background: url(../assets/sign-up.png) 0 8px no-repeat; 
+        }
+    }
+    &__search{
+        margin: 20px 0 0 0;
+    }
+}
