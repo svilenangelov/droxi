@@ -26,7 +26,7 @@
     padding: 0;
 }
 .menu > li > a.main-navigation__link{
-    padding: 25px;
+    padding: rem-calc(25px);
 }
 .menu > li {
     @include breakpoint(small down) {

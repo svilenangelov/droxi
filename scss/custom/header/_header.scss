@@ -2,7 +2,7 @@
     background: url(../assets/banner.jpg) no-repeat center center;
     background-size: cover;   
     background-attachment: fixed;
-    padding: 20px 0 0 0;
+    padding: rem-calc(20px 0 0 0);
     &__logo {
         color: #fff;
         &__title {
@@ -21,7 +21,7 @@
         }
     }
     &__user{
-        padding: 10px 0 10px 22px;
+        padding: rem-calc(10px 0 10px 22px);
         font-size: 0.9rem;
         font-weight: bold;
         color: #fff;
@@ -33,6 +33,6 @@
         }
     }
     &__search{
-        margin: 20px 0 0 0;
+        margin: rem-calc(20px 0 0 0);
     }
 }
